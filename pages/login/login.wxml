@@ -1,0 +1,16 @@
+<!-- 登陆页面 -->
+<view class="container">
+	<view class="class1">
+		课程交流系统
+	</view>
+</view>
+  <navigator url='../stu/home/home'>
+  <button class="class2">
+    学生登陆
+  </button>
+  </navigator>
+  <navigator url='../teacher/home/home'>
+  <button class="class3">
+    教师登陆
+  </button>
+  </navigator>

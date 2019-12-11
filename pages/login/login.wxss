@@ -1,0 +1,32 @@
+/* pages/login/login.wxss */
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.class1{
+  color: #e44db2;
+  font-family: "华文彩云";
+  font-size: 50px;
+  font-weight: bold;
+  margin-top:100rpx;
+}
+.class2{
+  margin-top:350rpx;
+  width: 85%;
+  border-radius: 10rpx;
+  color:white;
+  background-color: #41b13e;
+}
+.class3{
+  margin-top:20rpx;
+  width: 85%;
+  border-radius: 10rpx;
+  color:white;
+  background-color: #66c8eb;
+}
+page{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575449436176&di=822c4cca057261ff6bfecfe21ce2d44c&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fcd38ee0d04b01675f9fc06aac21812c119b67ab522eb0-y0Hp6i_fw236");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,29 @@
+ <!-- 学生端首页 -->
+ <import src="../../tabBar/tabBar.wxml"/> 
+ <template is="tabBar" data="{{tabBar}}"/>
+<view class="main-container">
+  <navigator>
+    <image src='../../../images/课堂.png' ></image>
+    <view>我的课程</view>
+  </navigator>
+  <navigator>
+    <image src='../../../images/资料库.png' ></image>
+    <view>学习资料</view>
+  </navigator>
+  <navigator>
+    <image src='../../../images/平台_考试.png' ></image>
+    <view>课堂测验</view>
+  </navigator>
+  <navigator url="">
+    <image src='../../../images/评价.png' ></image>
+    <view>课堂评价</view>
+  </navigator>
+  <navigator>
+    <image src='../../../images/作业.png' ></image>
+    <view>我的作业</view>
+  </navigator>
+  <navigator bindtap='onqiandao'>
+    <image src='../../../images/签到.png'></image>
+    <view>我要签到</view>
+  </navigator>
+</view>

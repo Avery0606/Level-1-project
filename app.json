@@ -1,0 +1,20 @@
+{
+  "pages": [
+        "pages/stu/tieba/tieba",
+    "pages/stu/home/home",
+    "pages/login/login",
+    "pages/teacher/home/home",
+    "pages/teacher/tieba/tieba",
+    "pages/teacher/about/about",
+    "pages/stu/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "课程交流系统-一级项目",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#bababa",
+    "backgroundColorBottom":"#bababa"
+  },
+  "sitemapLocation": "sitemap.json"
+}

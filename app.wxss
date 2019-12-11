@@ -1,0 +1,43 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.menu-item{  
+  width: 32%;  
+  float: left;  
+  text-align: center;  
+  padding-top: 8px; 
+  font-size: 3vw; 
+}  
+.menu-item1{  
+  width: 24%;  
+  float: left;  
+  text-align: center;  
+  padding-top: 8px;  
+}  
+.img{ 
+  width: 4vh;  
+  height: 4vh;  
+  display: block;  
+  margin:auto;  
+}  
+.clear{  
+  clear: both;  
+}  
+.tab-bar{  
+  position: fixed;  
+  width: 100%;  
+  padding: 0px 2%;  
+  background-color: white;
+  height:8vh;
+}  
+ 
+.button{
+  margin: 130px;
+}

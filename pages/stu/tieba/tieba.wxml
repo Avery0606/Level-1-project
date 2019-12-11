@@ -1,0 +1,28 @@
+ <import src="../../tabBar/tabBar.wxml"/> 
+ <template is="tabBar" data="{{tabBar}}"/>
+ <movable-area 
+ style="height:{{movableareaH}};width:{{movableareaW}}">
+  <movable-view direction="all" inertia="true" x="{{x}}" y="{{y}}" bindtouchend='abc'>
+    <image 
+    src='../../../images/书写.png' 
+    mode='scaleToFill' 
+    style='width:{{movableImageSideLengthS}};height:{{movableImageSideLengthS}}'></image>
+  </movable-view>
+ </movable-area>
+<view class="tiezi">
+  <view class="tiezixinxi">
+    <image src='../../../images/头像男孩.png' class="touxiang"></image>
+    <view class="xinxi">
+      <text class="xinxi1">匿名</text>
+      <text class="xinxi2">今天 08:15</text>
+    </view>
+  </view>
+  <view class='tiezineirong'>
+    <text class="wenzi">
+      头大风景
+    </text>
+    <image src='../../../images/头大风景.jpg'>
+
+    </image>
+  </view>
+</view>

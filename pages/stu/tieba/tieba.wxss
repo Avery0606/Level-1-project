@@ -1,0 +1,63 @@
+page{
+  background-color: #ECECEC
+}
+movable-area{
+  background: rgba(26, 173, 25, 0.0);
+  position: absolute;
+  left: 0;
+  top:0;
+}
+movable-view{
+  position: absolute;
+}
+.tiezi{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-top:1vh;
+}
+.tiezixinxi{
+  display: flex;
+  flex-direction: row;
+
+}
+.tiezi .touxiang{
+  border-radius: 50%;
+  width:15vw;
+  height: 15vw;
+  margin:2vw;
+}
+.tiezi .xinxi{
+  display: flex;
+  flex-direction: column;
+}
+.xinxi1{
+  margin-top:3vw;
+  font-size: 5vw;
+  font-weight: bold;
+  color: rgb(112, 38, 38);
+}
+.xinxi2{
+  margin-top:1vw;
+  font-size: 3vw;
+  color: rgb(145, 143, 143);
+}
+.tiezineirong{
+  display: flex;
+  flex-direction: column;
+
+}
+.wenzi{
+  font-size:40rpx;
+  font-family: "微软雅黑";
+  margin-left: 4vw;
+  margin-top:-3vw;
+}
+.tiezineirong image{
+  margin-left:4vw;
+  width:90vw;
+  height:75vw;
+  margin-top:3vw;
+}
+
