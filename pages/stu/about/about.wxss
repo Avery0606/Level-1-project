@@ -1,0 +1,33 @@
+.personalInfo{
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.personalInfo view{
+  display: flex;
+  flex-direction: column;
+}
+.personalInfo image{
+  height: 20vw;
+  width: 20vw;
+  margin-top:5vw;
+  margin-left:5vw;
+}
+.IFname{
+  margin-top:4vh;
+  margin-left:3vw;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  font-size:5vw;
+  color: rgb(146, 102, 102);
+}
+.IFid{
+    margin-left:3vw;
+    color:rgb(170, 166, 166);
+    margin-top:1vh;
+}
+page{
+  background-color: #ECECEC;
+}

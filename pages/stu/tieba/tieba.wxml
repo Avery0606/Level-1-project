@@ -9,6 +9,56 @@
     style='width:{{movableImageSideLengthS}};height:{{movableImageSideLengthS}}'></image>
   </movable-view>
  </movable-area>
+ <view class="tiezi">
+  <view class="tiezixinxi">
+    <image src='../../../images/头像女孩2.png' class="touxiang"></image>
+    <view class="xinxi">
+      <text class="xinxi1">匿名</text>
+      <text class="xinxi2">今天 12:35</text>
+    </view>
+  </view>
+  <view class='tiezineirong'>
+    <text class="wenzi">
+      啊啊啊三饭好好吃
+    </text>
+    <image src='../../../images/三饭.jpg'>
+    </image>
+  </view>
+  <view class="tiezicaozuo">
+    <view class="comment">
+      <image src="../../../images/评论.png"></image>
+      <text>评论  {{commentnum}}</text>
+    </view>
+    <view class="likes" bindtap='dianzan' id="0">
+      <image src="{{dianZanSrc[0]}}" ></image>
+      <text style="color:{{likecolor[0]}}">赞  {{likesnum[0]}}</text>
+    </view>
+  </view>
+</view>
+<view class="tiezi">
+  <view class="tiezixinxi">
+    <image src='../../../images/头像女孩1.png' class="touxiang"></image>
+    <view class="xinxi">
+      <text class="xinxi1">匿名</text>
+      <text class="xinxi2">今天 09:01</text>
+    </view>
+  </view>
+  <view class='tiezineirong'>
+    <text class="wenzi">
+      微积分做哪？？
+    </text>
+  </view>
+  <view class="tiezicaozuo">
+    <view class="comment">
+      <image src="../../../images/评论.png"></image>
+      <text>评论  {{commentnum}}</text>
+    </view>
+    <view class="likes" bindtap='dianzan' id="1">
+      <image src="{{dianZanSrc[1]}}"></image>
+      <text style="color:{{likecolor[1]}}">赞  {{likesnum[1]}}</text>
+    </view>
+  </view>
+</view>
 <view class="tiezi">
   <view class="tiezixinxi">
     <image src='../../../images/头像男孩.png' class="touxiang"></image>
@@ -25,6 +75,14 @@
     </image>
   </view>
   <view class="tiezicaozuo">
-    
+    <view class="comment">
+      <image src="../../../images/评论.png"></image>
+      <text>评论  {{commentnum}}</text>
+    </view>
+    <view class="likes" bindtap='dianzan' id='2'>
+      <image src="{{dianZanSrc[2]}}"></image>
+      <text style="color:{{likecolor[2]}}">赞  {{likesnum[2]}}</text>
+    </view>
   </view>
+  <view class="blankline"></view>
 </view>

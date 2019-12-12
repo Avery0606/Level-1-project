@@ -3,12 +3,14 @@ page{
 }
 movable-area{
   background: rgba(26, 173, 25, 0.0);
-  position: absolute;
+  position: fixed;
   left: 0;
   top:0;
+  pointer-events: none;
 }
 movable-view{
   position: absolute;
+  pointer-events: auto;
 }
 .tiezi{
   background-color: white;
@@ -59,9 +61,51 @@ movable-view{
   width:90vw;
   height:75vw;
   margin-top:3vw;
-  margin-bottom: 2vw;
 }
 .tiezicaozuo{
-  
+  display: flex;
+  width: 100vw;
+  border-top:1rpx solid #ECECEC;
+  margin-top:2vw;
 }
+.tiezicaozuo view{
+  width:50%;
+  height:7vh;
+  background-color: rgb(255, 255, 255);
+}
+button::after{
+  border: none;
+}
+.comment{
+  border-right: 1rpx #ECECEC solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comment image{
+  height: 7vw;
+  width: 7vw;
+}
+.tiezicaozuo text{
+  color: rgb(150, 149, 149);
+  text-align: center;
+  font-size: 4vw;
+  margin-left:1vw;
+}
+.likes{
+  border-right: 1rpx #ECECEC solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likes image{
+  height: 6vw;
+  width: 6vw;
+}
+.blankline{
+  height: 8vh;
+  background-color: #ECECEC
+}
+
+
 

@@ -1,2 +1,10 @@
  <import src="../../tabBar/tabBar.wxml"/> 
  <template is="tabBar" data="{{tabBar}}"/>
+<navigator class="personalInfo">
+  <image src='../../../images/头像男孩.png'></image>
+  <view >
+    <text class="IFname">匿名</text>
+    <text class="IFid">账号：wxid_7ugvjviig</text>
+  </view>
+</navigator>
+

@@ -1,12 +1,13 @@
 {
   "pages": [
         "pages/stu/tieba/tieba",
+    "pages/stu/about/about",
+
     "pages/stu/home/home",
-    "pages/login/login",
     "pages/teacher/home/home",
     "pages/teacher/tieba/tieba",
     "pages/teacher/about/about",
-    "pages/stu/about/about"
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",
